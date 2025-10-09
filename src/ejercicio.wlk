@@ -9,6 +9,7 @@ class Carrera{
         materias.addAll(_materias)
     }
 }
+
 // Modela todas las materias
 class Materia{
 
@@ -20,8 +21,8 @@ class RegistroAprobacion{
     const property nota
 }
 class Estudiante{
-    const property carreras = []
-    const property aprobadas = []
+    const property carreras = #{}
+    const property aprobadas = #{}
 
     method inscribirEnCarreras(_carreras) {
         carreras.addAll(_carreras)

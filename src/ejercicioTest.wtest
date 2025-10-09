@@ -1,6 +1,14 @@
 import ejercicio.*
 
-describe "Roque, el estudiante inquieto" {
+describe "Inscripción a materias" {
+    method initialize() {
+        const property programacion = new Carrera()
+        const property medicina = new Carrera()
+        const property derecho = new Carrera()
+
+        const roque = new Estudiante()
+        roque.inscribirEnCarreras(#{})
+    }
   test "" {
     
   }
