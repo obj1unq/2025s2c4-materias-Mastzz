@@ -2,37 +2,23 @@ import ejercicio.*
 
 describe "Inscripción a materias" {
     method initialize() {
+        // -- ARRANGE --
+        // carreras
         const programacion = new Carrera()
         const medicina = new Carrera()
         const derecho = new Carrera()
 
-        programacion.agregarMaterias(#{
-            new Materia(nombre = "Elementos de Programación"),
-            new Materia(nombre = "Matemática 1"),
-            new Materia(nombre = "Objetos 1"),
-            new Materia(nombre = "Objetos 2"),
-            new Materia(nombre = "Objetos 3"),
-            new Materia(nombre = "Trabajo Final"),
-            new Materia(nombre = "Bases de Datos")
-        })
-        medicina.agregarMaterias(#{
-            new Materia(nombre = "Química"),
-            new Materia(nombre = "Biología 1"),
-            new Materia(nombre = "Biología 2"),
-            new Materia(nombre = "Anatomia General")
-        })
-        derecho.agregarMaterias(#{
-            new Materia(nombre = "Latín"),
-            new Materia(nombre = "Derecho Romano"),
-            new Materia(nombre = "Historia del Derecho Argentino"),
-            new Materia(nombre = "Derecho Penal 1"),
-            new Materia(nombre = "Derecho Penal 2")
-        })
+        // materias
 
-        const roque = new Estudiante()
-        roque.inscribirEnCarreras(#{programacion, medicina})
-        roque.registrarAprobación(programacion.materia("Matemática 1"), 7)
-        roque.registrarAprobación(programacion.materia("Objetos 1"), 7)
+        
+        // -- ACT --
+        // const roque = new Estudiante()
+        // roque.inscribirEnCarreras(#{programacion, medicina})
+        // roque.registrarAprobación(programacion.materia("Matemática 1"), 7)
+        // roque.registrarAprobación(programacion.materia("Objetos 1"), 7)
+
+        // -- ASSERT --
+        
 
     }
   test "" {
