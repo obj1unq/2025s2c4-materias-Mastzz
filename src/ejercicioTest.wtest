@@ -1,0 +1,27 @@
+import ejercicio.*
+
+describe "Inscripción a materias" {
+    method initialize() {
+        // -- ARRANGE --
+        // carreras
+        const programacion = new Carrera()
+        const medicina = new Carrera()
+        const derecho = new Carrera()
+
+        // materias
+
+        
+        // -- ACT --
+        // const roque = new Estudiante()
+        // roque.inscribirEnCarreras(#{programacion, medicina})
+        // roque.registrarAprobación(programacion.materia("Matemática 1"), 7)
+        // roque.registrarAprobación(programacion.materia("Objetos 1"), 7)
+
+        // -- ASSERT --
+        
+
+    }
+  test "" {
+    
+  }
+}
