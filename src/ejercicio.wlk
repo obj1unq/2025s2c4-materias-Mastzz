@@ -12,7 +12,7 @@ class Carrera{
 
 // Modela todas las materias
 class Materia{
-
+    const property nombre
 }
 
 // Colaborador - Relación de Asociación: Estudiante - Materia - Nota

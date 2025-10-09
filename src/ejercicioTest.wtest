@@ -2,9 +2,19 @@ import ejercicio.*
 
 describe "Inscripción a materias" {
     method initialize() {
-        const property programacion = new Carrera()
-        const property medicina = new Carrera()
-        const property derecho = new Carrera()
+        const programacion = new Carrera()
+        const medicina = new Carrera()
+        const derecho = new Carrera()
+
+        programacion.agregarMaterias(#{
+            new Materia(nombre = "Elementos de Programación"),
+            new Materia(nombre = "Matemática 1"),
+            new Materia(nombre = "Objetos 1"),
+            new Materia(nombre = "Objetos 2"),
+            new Materia(nombre = "Objetos 3"),
+            new Materia(nombre = "Trabajo Final"),
+            new Materia(nombre = "Bases de Datos")
+        })
 
         const roque = new Estudiante()
         roque.inscribirEnCarreras(#{})
