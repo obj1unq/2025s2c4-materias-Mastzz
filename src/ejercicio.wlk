@@ -30,6 +30,6 @@ class Estudiante{
         aprobadas.add(new RegistroAprobacion(materia=_materia, nota=_nota))
     }
     method cantidadMateriasAprobadas(){
-        return 
+        return aprobadas.size()
     }
 }
